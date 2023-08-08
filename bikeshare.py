@@ -29,6 +29,8 @@ def get_filters():
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
+
+    If user enters a city, month or day outide of the expected choices, user will be prompted to try again.
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
@@ -79,6 +81,8 @@ def load_data(city, month, day):
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
+
+    Month is converted to respective number to match the data
     """
     # load data file into a dataframe
     df = pd.read_csv(CITY_DATA[city])
@@ -99,6 +103,7 @@ def load_data(city, month, day):
     
         # filter by month to create the new dataframe
         df = df[df['month'] == month]
+
     # filter by day of week if applicable
     if day != 'all':
         # filter by day of week to create the new dataframe
@@ -200,6 +205,8 @@ def user_stats(df):
 
 #Define print function
 def printdata(df):
+    """Displays five rows of data at a time for specified city with month and day of week filters applied."""
+
     while True:
         see_data = input('Would you like to see some data? ')
         see_data = see_data.lower()
