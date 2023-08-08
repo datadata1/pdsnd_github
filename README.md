@@ -10,9 +10,9 @@ August 7, 2023
 With data from _Motivate_, a bike-share system provider, this project explores basic statistics of bike-share data from three US cities: Chicago, New York City and Washington.
 
 ### Files used
-*chicago.xlsx
-*new_york_city.xlsx
-*washington.xlsx
+* chicago.xlsx
+* new_york_city.xlsx
+* washington.xlsx
 
 ### Credits
 I explored the Udacity tutors' tutorials and asked Udacity GPT for clarification.
