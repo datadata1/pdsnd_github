@@ -81,6 +81,8 @@ def load_data(city, month, day):
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
+
+    Month is converted to respective number to match the data
     """
     # load data file into a dataframe
     df = pd.read_csv(CITY_DATA[city])
@@ -101,6 +103,7 @@ def load_data(city, month, day):
     
         # filter by month to create the new dataframe
         df = df[df['month'] == month]
+
     # filter by day of week if applicable
     if day != 'all':
         # filter by day of week to create the new dataframe
