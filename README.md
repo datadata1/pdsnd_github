@@ -15,5 +15,5 @@ With data from _Motivate_, a bike-share system provider, this project explores b
 *washington.xlsx
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I explored the Udacity tutors' tutorials and asked Udacity GPT for clarification.
 
