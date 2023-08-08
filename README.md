@@ -4,13 +4,15 @@
 August 7, 2023
 
 ### Project Title
-Replace the Project Title
+***Exploration of Motivate US Bikeshare Data***
 
 ### Description
-Describe what your project is about and what it does
+With data from _Motivate_, a bike-share system provider, this project explores basic statistics of bike-share data from three US cities: Chicago, New York City and Washington.
 
 ### Files used
-Include the files used
+*chicago.xlsx
+*new_york_city.xlsx
+*washington.xlsx
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
