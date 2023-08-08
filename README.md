@@ -7,7 +7,17 @@ August 7, 2023
 ***Exploration of Motivate US Bikeshare Data***
 
 ### Description
-With data from _Motivate_, a bike-share system provider, this project explores basic statistics of bike-share data from three US cities: Chicago, New York City and Washington.
+With data from _Motivate_, a bike-share system provider, this project explores basic statistics of bike-share data from three US cities: Chicago, New York City and Washington. 
+
+Python version 3.6.3 was used, provided by the Udacity workspace. Packages used include:
+
+* time
+* numpy
+* pandas
+
+**Please note:** You will need access to the data files in order for the program to run as intended.
+
+***Thank you for exploring with me!***
 
 ### Files used
 * chicago.xlsx
