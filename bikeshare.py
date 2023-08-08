@@ -205,6 +205,8 @@ def user_stats(df):
 
 #Define print function
 def printdata(df):
+    """Displays five rows of data at a time for specified city with month and day of week filters applied."""
+
     while True:
         see_data = input('Would you like to see some data? ')
         see_data = see_data.lower()
